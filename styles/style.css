@@ -1,0 +1,67 @@
+body {
+	background-color: #fc0002;
+}
+
+div {
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	background-color: white;
+	padding: 10px;
+}
+
+#top, #middle {
+	width: 60%;
+	text-align: center;
+}
+
+#top {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+h1, h2, button {
+	font-family: "adelle","Adelle","Merriweather",Georgia,serif;
+}
+
+#question, #explanation {
+	display: block;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#explanation {
+	display: none;
+}
+
+#next {
+	display: none;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 50px;
+	margin: 10px 0 10px 0;
+}
+
+h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #fc0002;
+	font-weight: bold;
+	color: white;
+}
+
+#button-row, #img-row, #images {
+	margin-bottom: 20px;
+	vertical-align: center;
+}

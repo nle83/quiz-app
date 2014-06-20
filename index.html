@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Who You Gonna Call?</title>
+
+		<!-- Meta Tags -->
+		<meta charset="utf-8"/>
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="styles/style.css"/> 
+
+		<!-- JavaScript -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/question.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+	</head>
+	<body>
+	<div id="top">
+		<h1>Who You Gonna Call?</h1>
+		<h2>How well do you know the busters?</h2>
+	</div>
+
+	<div id="middle">
+		<h2 id="question">Here is a question. What is the answer?</h2>
+		<input id="userTry" placeholder="Give it your best shot."/>
+		<div id="button-row">
+			<button id="answer">Answer</button>
+			<button id="surrender">I give!</button>
+		</div>
+		<div id="img-row">
+			<ul id="images">
+				<li><img src="media/img/gb.png"/></li>
+				<li><img src="media/img/gb.png"/></li>
+				<li><img src="media/img/gb.png"/></li>
+			</ul>
+		</div>
+		<h2 id="explanation">Here is an explanation. This provides some background for the answer.</h2>
+		<button id="next">Next Question</button>
+	</div>
+	</body>
+</html>
